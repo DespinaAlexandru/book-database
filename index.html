@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Library</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f0f0f5;
+    }
+    .book {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .book h2 {
+      margin: 0;
+      color: #333;
+    }
+    .book p {
+      margin: 5px 0;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Book Library</h1>
+  <div id="book-list">Loading books...</div>
+
+  <script>
+    fetch("books.json")
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById("book-list");
+        container.innerHTML = "";
+        data.forEach(book => {
+          container.innerHTML += `
+            <div class="book">
+              <h2>${book.title}</h2>
+              <p><strong>Author:</strong> ${book.author}</p>
+              <p>${book.description}</p>
+            </div>
+          `;
+        });
+      })
+      .catch(error => {
+        document.getElementById("book-list").innerText = "Failed to load books.";
+        console.error("Error loading books.json:", error);
+      });
+  </script>
+</body>
+</html>

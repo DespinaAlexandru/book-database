@@ -1,0 +1,17 @@
+[
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "A novel set in the Roaring Twenties about love, wealth, and tragedy."
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "A dystopian novel about a totalitarian regime that watches everything."
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "A story of racial injustice in the Deep South."
+  }
+]
