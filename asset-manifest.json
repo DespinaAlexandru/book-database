@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.f377a654.js",
-    "static/js/453.53d3365c.chunk.js": "/static/js/453.53d3365c.chunk.js",
-    "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.f377a654.js.map": "/static/js/main.f377a654.js.map",
-    "453.53d3365c.chunk.js.map": "/static/js/453.53d3365c.chunk.js.map"
+    "main.css": "/book-reader/static/css/main.e6c13ad2.css",
+    "main.js": "/book-reader/static/js/main.ad2c8608.js",
+    "static/js/453.53d3365c.chunk.js": "/book-reader/static/js/453.53d3365c.chunk.js",
+    "index.html": "/book-reader/index.html",
+    "main.e6c13ad2.css.map": "/book-reader/static/css/main.e6c13ad2.css.map",
+    "main.ad2c8608.js.map": "/book-reader/static/js/main.ad2c8608.js.map",
+    "453.53d3365c.chunk.js.map": "/book-reader/static/js/453.53d3365c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.f377a654.js"
+    "static/js/main.ad2c8608.js"
   ]
 }
