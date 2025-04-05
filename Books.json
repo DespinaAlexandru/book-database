@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "title": "Book One",
+    "author": "Author A",
+    "description": "A thrilling journey through time.",
+    "image": "https://via.placeholder.com/150",
+    "chapters": [
+      { "title": "Chapter 1", "text": "This is the text of Chapter 1." },
+      { "title": "Chapter 2", "text": "This is the text of Chapter 2." }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Book Two",
+    "author": "Author B",
+    "description": "A mysterious tale of adventure.",
+    "image": "https://via.placeholder.com/150",
+    "chapters": [
+      { "title": "Chapter 1", "text": "Welcome to Chapter 1 of Book Two." }
+    ]
+  }
+]
